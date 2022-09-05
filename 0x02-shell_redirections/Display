@@ -1,2 +1,3 @@
 grep -i "root" /etc/passwd lines co14-findthatword
 grep -c -i "bin" /etc/passwd the numb15-countthatword
+grep -i "root" -A 3 /etc/passwd lines co16-whatsnext
